@@ -28,6 +28,8 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI titleText;
 
+    string descId;
+
     private void Start()
     {
         //   Debug.Log(testValue);
