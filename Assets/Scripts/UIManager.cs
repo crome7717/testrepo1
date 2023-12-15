@@ -5,8 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEditor.Experimental.GraphView;
 
-
-public class UIManager : MonoBehaviour
+public class    r : MonoBehaviour
 {
     //배열
     //같은 데이터 타입을 가지는 여러 값을 저장해줌
@@ -69,6 +68,15 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     TextMeshProUGUI titleText;
 
+
+
+    List<string> monlist = new List<string> { "ghost", "small_ghost", "big_ghost" };
+    private void Start()
+    {
+        //Debug.Log(monlist[0]);
+        
+    }
+
     string descId;
 
     public void ChangeDesc()
@@ -109,10 +117,11 @@ public class UIManager : MonoBehaviour
         }
         else
         {
-           // descText.text = descTextList[descNum];
+            // descText.text = descTextList[descNum];
             //descTextList 라는 배열의 descNum번째에 해당 하는 값을 descText.text에 넣겠다
             descNum++;
         }
+        
 
 
 
@@ -144,3 +153,35 @@ public class UIManager : MonoBehaviour
     }*/
     }
 }
+
+
+
+//UI(이미지) 채우는 법
+/*Image testImage;
+void Testvoid()
+{
+    testImage.fillAmount = 0; // 0(00%)
+    //안채운다.
+    testImage.fillAmount = 1; // 1(00%)
+    //가득 채운다.
+
+    //데이터 형식 바꿔서 계산하기
+    //int, int => int 결과 값이 나옴.
+    //float도 마찬가지
+    // int value = 100 / 30 (이러면 3이 나옴)
+    // float 이여도 원하는 값 (3.33)이 안나올 거
+    // 이 때 하는게 (데이터)형(식) 변환
+    // int hun = 100;
+    // int thi = 30; 이라고 할 때
+    // hun / thi 의 값을 float으로 얻고 싶다면 ?
+    // 개쉽게 할 수 있음
+    // float testValue = (float)hun / (float)thi
+    // 이렇게 int 변수 엎에 (float)을 붙여주면 됨
+    // float을 int로 바꾸고 싶으면 (int)를 앞에 붙이면 됨
+
+} 
+
+*/
+
+
+
