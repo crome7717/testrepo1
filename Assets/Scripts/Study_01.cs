@@ -107,5 +107,14 @@ public class Study_01 : MonoBehaviour
         Debug.Log("꺼졌다.");
     }
 }
-    // Update is called once per frame
+// Update is called once per frame
+
+//int[] ssh = new int[3];
+//추가 수정은 어렵지만 검색은 용이하다
+
+//List<int> yyw = new List<int>(3);
+//추가 수정은 용이 하지만 검색은 다소 어렵다
+
+//배열은 remove를 통해 3번째 칸의 데이터를 삭제 할 수 있다
+//List는 아예 세번째 요소를 삭제 한다
 
