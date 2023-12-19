@@ -1,0 +1,4 @@
+index,name,type,class,hp,atk,def
+1,lee,human,swordman,200,10,5
+2,kim,mon,archer,300,20,10
+3,park,mon,cleric,50,33,100

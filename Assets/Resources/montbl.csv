@@ -1,0 +1,11 @@
+id,name,type,cha,hp,atk,def
+1,lee,human,swordman,200,10,5
+2,kim,mon,archer,300,20,10
+3,park,mon,cleric,50,33,100
+4,jeon,human,knight,3000,10,10
+5,jang,mon,magician,5000,15,52
+6,yong,elf,blaster,120,30,22
+7,cho,elf,thief,600,35,36
+8,choi,orc,soldier,700,92,49
+9,no,orc,lancer,500,67,51
+10,yoon,orc,saber,660,15,100
