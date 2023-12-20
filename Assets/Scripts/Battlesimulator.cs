@@ -98,9 +98,9 @@ public class Battlesimulator : MonoBehaviour
     public void atk_button(Monster monster, User user)
     {
         monster.monCurHp -= user.userAtk;
-    }   
-    
-    
+    }
+
+
 
     int Turn = 1;
     public void Awake()
@@ -110,15 +110,16 @@ public class Battlesimulator : MonoBehaviour
 
 
 
-   
+
     void Start()
     {
 
         //Debug.Log(user01.userName);
 
-        
+
 
     }
+}
     /*
     float timeStemp;
     void Update()
@@ -126,6 +127,6 @@ public class Battlesimulator : MonoBehaviour
         timeStemp += Time.deltaTime;
         Debug.Log(timeStemp);
     }
+}
     */
 
-}
