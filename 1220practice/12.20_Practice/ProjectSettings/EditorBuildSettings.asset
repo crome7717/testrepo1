@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/goyang_06_Clear.unity
+    guid: b7625264bd79f8343a5d160fc0bfec02
+  - enabled: 1
+    path: Assets/Scenes/goyang_06_game.unity
+    guid: 9c2d2300a1e08c340b6df2ae1d6fd5c2
   m_configObjects: {}
