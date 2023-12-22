@@ -4,25 +4,24 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
+
 
 public class GameBookManager : MonoBehaviour
-{ 
-
+{
+    
+    public void Awake()
+    {
+            
+    }
     public void Totitle()
     {
         SceneManager.LoadScene("Title");
     }
-
-    public void Start() 
-    {
- 
-        
-
-    }
-
-    // Update is called once per frame
-    void Update()
+    public void choice_button()
     {
         
+        
     }
+
 }
